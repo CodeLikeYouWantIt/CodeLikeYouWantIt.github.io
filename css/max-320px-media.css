@@ -53,6 +53,15 @@
     display: inline-block;
   }
 
+  .about-description{
+    float:right;
+  }
+
+  .image3{
+    float:left;
+    width:60%;
+  }
+
   a:visited{
     color:#0F7880;
   }
