@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> </title>
   <title>
@@ -12,33 +13,64 @@
 
     <div class="container">
       <div class="element">
-        <header><h1>Intro goes here</h1></header>
-        <img src="images/comp.jpg" id="computer" />
+        <div class="nav">
+          <a href="#services" ><span>Services</span></a> |
+          <a href="#projects" ><span>Projects</span></a> |
+          <a href="#" ><span>Porfolio</span></a> |
+          <a href="#about" ><span>About Me</span></a> |
+          <a href="#footer" ><span>Contact</span></a>
+        </div>
+        <img src="images/office-desk.jpg" id="computer" />
       </div>
     </div>
 
     <div class="span-container">
-      <div class="span-3">
-        <h1>Services</h1>
-        <p>This page is currently in the works! Please come back later or follow along to see the updates!</p>
+      <div class="span-3 light-grey">
+        <h1 id="services">Services</h1>
+        <hr class="underline">
+        <div id="service-nav">
+          <a href="#" >FrontEnd</a> |
+          <a href="#" >BackEnd</a>
+        </div>
+        <p>This page is currently in progress! Please come back later or follow along to see the updates!</p>
       </div>
 
       <div class="span-3">
-        <h1>Projects</h1>
+        <h1 id="projects">Projects</h1>
+        <hr class="underline">
+
+        <div class="project">
+          <div class="description">
+            <h2>Budget Guru</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <a href="#" class="button">View Website</a>
+          <img src="images/BudgetGURU.jpg" class="image"/>
+        </div>
+
+        <hr>
+
+        <div class="project">
+          <div class="description2">
+            <h2>One Worship</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <a href="#" class="button">View Website</a>
+          <img src="images/comp.jpg" class="image2"/>
+        </div>
       </div>
 
       <div class="span-3">
-        <h1>About Me</h1>
+        <h1 id="about">About Me</h1>
+        <hr class="underline">
+        <img src="images/barberpose.jpg" class="image3"/>
       </div>
 
-      <div class="span-3">
-        <h1>Skills</h1>
-      </div>
-
-      <div class="span-3">
-        <footer>footer goes here</footer>
+      <div class="span-3 dark-grey">
+        <footer id="footer">footer goes here</footer>
       </div>
     </div>
-
   </body>
 </html>
