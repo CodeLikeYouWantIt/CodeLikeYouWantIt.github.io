@@ -3,21 +3,23 @@
     border: 1px solid red;
   }*/
 
-  .description-container{
+ /* .description-container{
     width: 95%;
     height:220px;
     text-align: center;
-  }
+  }*/
 
   .project-description{
+    position: relative;
     font-size: 15px;
     text-align: center;
+    top:-30px;
     /*margin:0 auto;*/
   }
 
   .project_image_container{
     position: relative;
-    padding-bottom: 55%;
+    padding-bottom: 70%;
     width:95%;
     margin-left: 2%;
     margin-top: 2%;
@@ -25,9 +27,8 @@
 
   .project-image{
     position: absolute;
-    height:90%;
+    height:100%;
     width:80%;
-    top:5px;
     left:9.5%;
   }
 
@@ -37,12 +38,14 @@
 
   .project_header{
     font-size: 28px;
-    padding: 2px;
+    padding: 20px;
   }
+
 
   .button-container{
     position: relative;
     text-align: center;
+    top:-15px;
   }
 
   .button{
