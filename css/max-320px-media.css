@@ -1,4 +1,4 @@
-@media (max-width: 440px){
+@media (max-width: 420px){
   /**{
     border: 1px solid red;
   }*/
@@ -58,12 +58,18 @@
     float:right;
   }
 
+  .about-main-container{
+    padding: 10px;
+  }
+
   .image-container{
+    position: relative;
     text-align: center;
   }
 
   .image3{
     width:60%;
+    border-radius: 80px;
   }
 
   a:visited{
@@ -72,5 +78,47 @@
 
   a{
     color:#21DDEC;
+  }
+
+  .footer-nav{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    float:right;
+  }
+
+  .hobbies-container{
+    margin-left: 9%;
+    margin-bottom: 20px;
+  }
+
+  .span-1{
+    position: relative;
+    margin-right: 3.333%;
+    border-radius: 80px;
+    width:30%;
+  }
+
+  .hobby{
+    position: relative;
+    width:30%;
+  }
+
+  .barber-img{
+    position: absolute;
+    width:80%;
+    left:1%;
+  }
+
+  .hobby-img{
+    position: absolute;
+    width:80%;
+    left:5%;
+  }
+
+  .center{
+    margin:0 auto;
+    left:14%;
   }
 }
