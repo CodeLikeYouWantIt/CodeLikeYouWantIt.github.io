@@ -1,4 +1,4 @@
-@media (max-width: 1024px){
+@media (max-width: 440px){
   /**{
     border: 1px solid red;
   }*/
@@ -42,6 +42,7 @@
 
   .button-container{
     position: relative;
+    text-align: center;
   }
 
   .button{
@@ -57,8 +58,11 @@
     float:right;
   }
 
+  .image-container{
+    text-align: center;
+  }
+
   .image3{
-    float:left;
     width:60%;
   }
 
