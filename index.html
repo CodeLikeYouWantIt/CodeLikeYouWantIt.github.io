@@ -12,115 +12,72 @@
 </head>
   <body>
 
-    <div class="container">
-      <div class="element">
-        <div class="nav">
-          <a href="#services" ><span>Services</span></a> |
-          <a href="#projects" ><span>Projects</span></a> |
-          <a href="#" ><span>Portfolio</span></a> |
-          <a href="#about" ><span>About Me</span></a> |
-          <a href="#footer" ><span>Contact</span></a>
-        </div>
-        <img src="images/office-desk.jpg" id="computer" />
-      </div>
-    </div>
+    <ul class="navigation">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#services">Services</a></li>
+      <li class="nav-item"><a href="#">Portfolio</a></li>
+      <li class="nav-item"><a href="#about">About</a></li>
+      <li class="nav-item"><a href="#">Blog</a></li>
+      <li class="nav-item"><a href="#">Contact</a></li>
+    </ul>
 
-    <div class="span-container">
-      <div class="span-3">
-        <h1 id="services" class="headers">Services</h1>
-        <hr class="underline">
-        <div id="service-nav">
-          <a href="#" >FrontEnd</a> |
-          <a href="#" >BackEnd</a>
-        </div>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
+
+    <div class="site-wrap">
+      <div class="container">
+        <h1 id="services" class="headers ">Services</h1>
+
+        <ul class="service-navigation ">
+          <li class=""><a href="#">Front End</a></li>
+          <li class=""><a href="#">Back End</a></li>
+        </ul>
+
         <p>This page is currently in progress! Please come back later or follow along to see the updates!</p>
       </div>
 
-      <div class="span-3">
-        <h1 id="projects" class="headers">Projects</h1>
+      <div class="container ">
+        <h1 id="projects" class="headers ">Projects</h1>
+        <div class="container">
+            <h2 class="sub-header ">Budget Guru</h2>
 
-        <div class="project">
-          <div class="project-container">
-              <h2 class="project_header">Budget Guru</h2>
-              <p class="project-description">Budget Guru is an app that lets you know how you're doing at all times. There are a lot budgeting apps out there that tell you if you're over your budget, and how much you have in your account(s), but none that tell you how much you can actually spend.</p>
-            <div class="button-container">
-              <a href="https://budgetguru.github.io/" class="button">View Website</a>
-            </div>
-            <div class="project_image_container">
+            <p>Budget Guru is an app that lets you know how you're doing at all times. There are a lot budgeting apps out there that tell you if you're over your budget, and how much you have in your account(s), but none that tell you how much you can actually spend.</p>
+
+            <a href="https://budgetguru.github.io/" class="button ">View Website</a>
+
+            <div>
               <img src="images/BudgetGURU.jpg" class="project-image"/>
             </div>
-          </div>
         </div>
-
-        <hr>
-
-       <!--  <div class="project">
-           <div class="project-container">
-            <div class="description-container">
-              <h2 class="project_header">Second Project</h2>
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="button-container">
-              <a href="#" class="button">View Website</a>
-            </div>
-            <div class="project_image_container">
-              <img src="images/comp.jpg" class="project-image"/>
-            </div>
-          </div>
-        </div> -->
       </div>
 
-      <div class="span-3 about-main-container">
+      <div class="container">
         <h1 id="about" class="headers">About Me</h1>
-        <div class="about-container">
 
-          <div class="image-container">
-            <img src="images/prof_dbc_pic.jpg" class="image3"/>
-            <h3 id="name">Hector Feurtado</h3>
-            <h5>Full Stack Developer</h5>
-          </div>
-          <p class="about-description">I just recently graduated from DBC(DevBootcamp) in NY. I'm most passionate about being a father, and of course, creating "beautiful and meaningful things". I'm the guy who sings a song to every word you say. I love finding ways to make things easier.</p>
-        </div>
+            <img src="images/prof_dbc_pic.jpg" class="prof-pic"/>
+            <h3 id="name" class="">Hector Feurtado</h3>
+            <h5 class="">Full Stack Developer</h5>
+
+        <p>I just recently graduated from DBC(DevBootcamp) in NY. I'm most passionate about being a father, and of course, creating "beautiful and meaningful things". I'm the guy who sings a song to every word you say. I love finding ways to make things easier.</p>
         <hr>
+      </div>
 
-        <h2 class="project_header ">Hobbies &amp; Interests</h2>
-        <div class="hobbies-container">
-          <div class="span-1 hobby">
-            <img src="images/circle-icon-keyboard.png" class="hobby-img "/>
-          </div>
+      <div class="container no-margin">
+        <h2 class="sub-header">Hobbies &amp; Interests</h2>
 
-          <div class="span-1 ">
-            <img src="images/barbershop.png" class="barber-img"/>
-          </div>
+        <div class="hobbies">
+          <img src="images/circle-icon-keyboard.png" class="hobby-img"/>
 
-          <div class="span-1">
-            <img src="images/music.png" class="hobby-img"/>
-          </div>
+          <img src="images/barbershop.png" class="hobby-img"/>
 
-          <div class="span-1">
-            <img src="images/Gaming.png" class="hobby-img"/>
-          </div>
+          <img src="images/music.png" class="hobby-img"/>
 
-          <div class="span-1">
-            <img src="images/sparring.png" class="hobby-img"/>
-          </div>
+          <img src="images/Gaming.png" class="hobby-img"/>
+
+          <img src="images/sparring.png" class="hobby-img"/>
         </div>
       </div>
 
-      <div class="span-3 blue">
-        <footer id="footer"></footer>
-        <div>
-          <nav>
-            <ul class="footer-nav">
-              <li><a href="#services" >Services</a></li>
-              <li><a href="#services" >Projects</a></li>
-              <li><a href="#services" >Portfolio</a></li>
-              <li><a href="#services" >About Me</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
     </div>
   </body>
 </html>
