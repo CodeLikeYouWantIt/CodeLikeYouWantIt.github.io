@@ -1,4 +1,4 @@
-@media (max-width: 450px){
+@media (max-width: 587px){
 
   /* Navigation Menu - Background */
 .navigation {
@@ -133,5 +133,16 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
     height:50px;
     text-align:left;
     vertical-align:none;
+  }
+
+  header{
+    position: absolute;
+    left:15%;
+    width:70%;
+    top:15%;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    border:1px solid red;
   }
 }

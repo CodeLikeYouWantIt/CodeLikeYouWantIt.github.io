@@ -6,7 +6,7 @@
   font-size: 40px;
 }
 
-.container {
+.container{
   position: relative;
   text-align: center;
   margin-left: 20px;
@@ -111,8 +111,12 @@ a:visited{
 
 header{
   position: absolute;
-  left:35%;
-  color:#000;
+  left:25%;
+  width:60%;
+  top:15%;
+  color:#fff;
+  font-size: 30px;
+  text-align: center;
 }
 
 .nav-container{
