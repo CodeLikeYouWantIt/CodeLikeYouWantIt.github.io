@@ -1,43 +1,257 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> </title>
-  <title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  </title>
-</head>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  </head>
   <body>
-    <div class="container">
-      <div class="element">
-        <header><h1>Intro goes here</h1></header>
-        <img src="images/comp.jpg" id="computer" />
+    <nav class="navbar navbar-light bg-light">
+      <div class="nav bg-dark">
+        <a class="navbar-brand" href="#"><span class="logo">HF Design</span></a>
+        <a class="nav-link nav-link-hide" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link nav-link-hide" href="#skills">Skills</a>
+        <a class="nav-link nav-link-hide" href="#projects">Projects</a>
+        <a class="nav-link nav-link-hide" href="#">About</a>
+        <a class="nav-link nav-link-hide" href="#">Blog</a>
+        <a class="nav-link nav-link-hide" href="#footer">Contact</a>
+
+        <span class="button "><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button></span>
       </div>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Navbar text with an inline element
+        </span>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide" src="images/desk1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1>I'm a Developer...</h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#footer" role="button">Get in Touch</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="images/me_aiden.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>...and a Father</h1>
+              <p>This little guy right here is the reason why I do what I do.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Follow us!</a></p>
+            </div>
+          </div>
+        </div>
+       <!--  <div class="carousel-item">
+          <img class="third-slide" src="images/office-desk.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
-    <div class="span-container">
-      <div class="span-3">
-        <h1>Services</h1>
-        <p>This page is currently in the works! Please come back later or follow along to see the updates!</p>
+     <div class="container marketing">
+      <h1 class="heading" id="skills">Skills</h1>
+      <div class="row">
+
+
+        <div class="col-lg-2">
+          <img class="rounded-circle" src="images/react.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>React</h2>
+          <p>Image of Skill level goes here</p>
+         <!--  <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+
+        <div class="col-lg-2">
+          <img class="rounded-circle" src="images/rubyonrails.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Ruby on Rails</h2>
+          <p>Image of Skill level goes here</p>
+        <!--   <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+
+        <div class="col-lg-2">
+          <img class="rounded-circle" id="node" src="images/node_js.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>nodejs</h2>
+          <p>Image of Skill level goes here</p>
+          <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+
+        <div class="col-lg-2">
+          <img class="rounded-circle" id="node" src="images/css3.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>CSS</h2>
+          <p>Image of Skill level goes here</p>
+          <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+
+        <div class="col-lg-2">
+          <img class="rounded-circle" id="node" src="images/html5-logo.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>HTML</h2>
+          <p>Image of Skill level goes here</p>
+          <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
       </div>
 
-      <div class="span-3">
-        <h1>Projects</h1>
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <h1 class="heading" id="projects">Projects</h1>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Budget Guru <span class="text-muted">Stop Waiting. Start Saving.</span></h2>
+          <p class="lead">Budget Guru is an app that lets you know how you're doing financially at all times. There are a lot budgeting apps out there that tell you if you're over your budget, and how much you have in your account(s), but none that tell you how much you can actually spend.</p>
+
+          <p class="lead">Budget Guru was built in seven days with an amazing, hard working, group of people. We decided to challenge ourselves with learning React Native(boy was it frustrating), but we managed to do it! <a href="https://budgetguru.github.io/">Click here</a> to find out more about the app.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/BudgetGURU.jpg" alt="Generic placeholder image">
+        </div>
       </div>
 
-      <div class="span-3">
-        <h1>About Me</h1>
+      <hr class="featurette-divider">
+<!--
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
       </div>
 
-      <div class="span-3">
-        <h1>Skills</h1>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
       </div>
 
-      <div class="span-3">
-        <footer>footer goes here</footer>
-      </div>
+      <hr class="featurette-divider"> -->
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
     </div>
 
+<!--
+
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger border" />
+    <label for="nav-trigger"></label>
+
+    <div class="site-wrap">
+
+      <div class="container ">
+        <h1 id="projects" class="headers ">Projects</h1>
+        <div class="container">
+            <h2 class="sub-header ">Budget Guru</h2>
+
+            <p>Budget Guru is an app that lets you know how you're doing at all times. There are a lot budgeting apps out there that tell you if you're over your budget, and how much you have in your account(s), but none that tell you how much you can actually spend.</p>
+
+            <a href="https://budgetguru.github.io/" class="button ">View Website</a>
+
+            <div>
+              <img src="images/BudgetGURU.jpg" class="project-image"/>
+            </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 id="about" class="headers">About Me</h1>
+
+            <img src="images/prof_dbc_pic.jpg" class="prof-pic"/>
+            <h3 id="name" class="">Hector Feurtado</h3>
+            <h5 class="">Full Stack Developer</h5>
+
+        <p>I just recently graduated from DBC(DevBootcamp) in NY. I'm most passionate about being a father, and of course, creating "beautiful and meaningful things". I'm the guy who sings a song to every word you say. I love finding ways to make things easier.</p>
+        <hr>
+      </div>
+
+      <div class="container no-margin">
+        <h2 class="sub-header">Hobbies &amp; Interests</h2>
+
+        <div class="hobbies">
+          <img src="images/circle-icon-keyboard.png" class="hobby-img"/>
+
+          <img src="images/barbershop.png" class="hobby-img"/>
+
+          <img src="images/music.png" class="hobby-img"/>
+
+          <img src="images/Gaming.png" class="hobby-img"/>
+
+          <img src="images/sparring.png" class="hobby-img"/>
+        </div>
+      </div>
+
+    </div>
+ -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
