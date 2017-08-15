@@ -187,12 +187,6 @@ button{
 
 }
 
-ul {
-    padding:0;
-    list-style: none;
-}
-li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
+.social-icons li {
+  display: inline;
 }
