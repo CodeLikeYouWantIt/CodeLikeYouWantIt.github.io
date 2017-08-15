@@ -43,6 +43,25 @@ button{
   letter-spacing: .08em;
 }
 
+.my-name{
+  color:#04D5F3;
+}
+
+#about{
+  text-align: center;
+}
+
+.about-me{
+  /*border:1px solid red;*/
+  width:80%;
+  margin:0 auto;
+}
+
+.hash{
+  color:#04D5F3;
+
+}
+
 .container{
   text-align: center;
 }
