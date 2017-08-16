@@ -190,3 +190,8 @@ button{
 .social-icons li {
   display: inline;
 }
+
+#demo-vid{
+  width:50%;
+  /*max-height:100%;*/
+}
