@@ -105,6 +105,14 @@ button{
   height: 32rem;
 }
 
+.carousel-inner p{
+  top:0;
+  text-align: center;
+}
+
+.carousel-inner h1{
+  text-align: center;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
