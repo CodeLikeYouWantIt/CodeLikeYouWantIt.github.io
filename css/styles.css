@@ -11,31 +11,9 @@ button{
   font-size: 40px;
 }
 
-.nav{
-  position:fixed;
-  z-index:1;
-  width:100%;
-  height:50px;
-  left:0;
-  top:0;
-}
-
-.heading{
-  text-align: center;
-}
-
-.navbar-brand, .nav-link{
-  margin-left: 2%;
-  margin-top:.5%;
-}
-
 .col-md-5{
   /*position: relative;*/
   top:55px;
-}
-
-.nav-link{
-  color:#fff;
 }
 
 .logo{
@@ -168,18 +146,8 @@ button{
   }
 }
 
-@media (max-width: 587px) {
-  .nav{
-    text-align: center;
-  }
-  .navbar-brand{
-    position: relative;
-  }
-}
-
-
-  @media (max-width: 50.31em){
-    .nav-link-hide{
+@media (max-width: 50.31em){
+  .nav-link-hide{
     visibility: hidden;
   }
 
@@ -192,7 +160,6 @@ button{
     right:0;
     top:4px;
   }
-
 }
 
 .social-icons li {
@@ -202,4 +169,41 @@ button{
 #demo-vid{
   width:100%;
   /*max-height:100%;*/
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #343a40!important;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.nav li {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1.0em;
+  line-height: 40px;
+  letter-spacing: 1.8px;
+  height: 40px;
+  display: inline-block;
+  /*border:1px solid red;*/
+  margin-left: 2%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
 }
