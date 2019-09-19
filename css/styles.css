@@ -3,6 +3,10 @@
   font-size: 40px;
 }
 
+.myNindo{
+  font-size: 2em;
+  font-weight: bold;
+}
 .col-md-5{
   /*position: relative;*/
   top:55px;
@@ -41,7 +45,8 @@
 }
 
 .prof-pic{
-  border-radius: 50%;
+  border-radius: 3%;
+  width:50%;
   /*float:left;*/
 }
 
